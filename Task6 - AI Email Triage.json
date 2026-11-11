@@ -472,7 +472,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://discord.com/api/webhooks/1549794625210945566/xKnc_fwVYcMRodOwW_yYlluRHNVPejxbedEoTHHdcrWi9iXUHusocJM1l7Cqcs2T7Yf6",
+        "url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"content\": \"🔔 New Job Application\\nCandidate: {{ $('Code in JavaScript').item.json.sender_name }} | Email: {{ $('Code in JavaScript').item.json.sender_email }}\\nSubject: {{ $('Code in JavaScript').item.json.subject }}\\nPriority: {{ $('Code in JavaScript1').item.json.priority }}\\n\\nForwarded to HR.\"\n}",
@@ -513,7 +513,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://discord.com/api/webhooks/1549794769205465189/F6MLMwhZyFDrOJqIc7mwp5mLQ7CEte257OCa8J56h9u7VRmqzlXUorBkGhIQA028GSe9",
+        "url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"content\": \"🚨 URGENT — Immediate Attention Required\\nFrom: {{ $('Code in JavaScript').item.json.sender_email }}\\nSubject: {{ $('Code in JavaScript').item.json.subject }}\\nReasoning: {{ $('Code in JavaScript1').item.json.reasoning }}\"\n}",
@@ -531,7 +531,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "   https://discord.com/api/webhooks/1549794874524434462/h6rA99iYZrZaFCTtkiXjF_8vfookulBmTwPaY6LiCZLIWVMjMRm-I_nktnWr9aJNUoIy",
+        "url": "   https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"content\": \"🚨 URGENT — Immediate Attention Required\\nFrom: {{ $('Code in JavaScript').item.json.sender_email }}\\nSubject: {{ $('Code in JavaScript').item.json.subject }}\\nReasoning: {{ $('Code in JavaScript1').item.json.reasoning }}\"\n}",
@@ -549,7 +549,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "   https://discord.com/api/webhooks/1549794769205465189/F6MLMwhZyFDrOJqIc7mwp5mLQ7CEte257OCa8J56h9u7VRmqzlXUorBkGhIQA028GSe9",
+        "url": "   https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"content\": \"📅 Meeting Request\\nFrom: {{ $('Code in JavaScript').item.json.sender_email }}\\nSubject: {{ $('Code in JavaScript').item.json.subject }}\\n\\nNeeds human scheduling — no auto-reply sent.\"\n}",
@@ -591,7 +591,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "   https://discord.com/api/webhooks/1549794769205465189/F6MLMwhZyFDrOJqIc7mwp5mLQ7CEte257OCa8J56h9u7VRmqzlXUorBkGhIQA028GSe9",
+        "url": "   https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"content\": \"❓ Unclassified/Low-confidence Email — needs human review\\nFrom: {{ $('Code in JavaScript').item.json.sender_email }}\\nSubject: {{ $('Code in JavaScript').item.json.subject }}\\nCategory guess: {{ $('Code in JavaScript1').item.json.category }} (confidence: {{ $('Code in JavaScript1').item.json.confidence }})\"\n}",
